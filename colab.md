@@ -5,6 +5,6 @@ TODO
 4. alteracoes na classe Bank.
 
 IN DEV
-5. criacao do pacote "Treatments" para colocar os tipos de tratamentos existentes/utilizados.
-6. criacao do pacote "FrontDesk" que sera o menu.
-7. criacao da classe Values para fazer o calculo dos valores dos tratamentos(recebera qual o tratamento da classe tratamentos, calculara o valor do(s) tratamentos em values e passara o valor a ser armazenado para o banco).
+5. criacao do pacote "Treatments" para colocar os tipos de tratamentos existentes/utilizados. DONE
+6. criacao do pacote "FrontDesk" que sera o menu. 
+7. criacao da classe Values para fazer o calculo dos valores dos tratamentos(recebera qual o tratamento da classe tratamentos, calculara o valor do(s) tratamentos em values e passara o valor a ser armazenado para o banco). DONE
