@@ -6,7 +6,7 @@ import Person.Patient;
 public class Menu {
 public static void main(String[] args) {
 int op;
-Scanner scan= new Scanner (System.in);    
+Scanner scan = new Scanner(System.in);    
 Doctor doc1= new Doctor(null, null, null, null, null, null, null);    
 Patient pat1= new Patient(null, null, null, null, null, null, null, null, null, null, null);        
 
