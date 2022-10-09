@@ -6,9 +6,7 @@ import Person.Patient;
 public class Menu {
 public static void main(String[] args) {
 int op;
-Scanner scan = new Scanner(System.in);    
-Doctor doc1= new Doctor(null, null, null, null, null, null, null);    
-Patient pat1= new Patient("12345678900", "1207123", "caio", "aflitos", "19/02/03", "-O", "dipirona", "febre e moleza", "cassi", "72", "1,78");        
+Scanner scan = new Scanner(System.in);        
 
         do{
         showMenu();
@@ -16,45 +14,8 @@ Patient pat1= new Patient("12345678900", "1207123", "caio", "aflitos", "19/02/03
         
         switch (op) {
             case 1:
-                    System.out.println("Informe seu CPF");
-                    String cpf = scan.nextLine();
-                    System.out.println("Informe seu RG");
-                    String rg = scan.nextLine();
-                    System.out.println("Informe sua data de nascimento");
-                    String birthdate = scan.nextLine();
-                    System.out.println("Informe seu nome inteiro");
-                    String nome = scan.nextLine();
-                    System.out.println("Informe seu endereço");
-                    String endereco = scan.nextLine();
-                    System.out.println("Informe seu tipo sanguineo");
-                    String sangue = scan.nextLine();
-                    System.out.println("Informe sua altura");
-                    String altura = scan.nextLine();
-                    System.out.println("Informe seu peso");
-                    String peso = scan.nextLine();
-                    System.out.println("Caso tenha algum tipo de alergia informe, caso não tenha, digite N/A");
-                    String alergia = scan.nextLine();
-                    System.out.println("Informe seu plano de sáude, caso não tenha, digite N/P");
-                    String plano = scan.nextLine();
-
-
                 break;
             case 2:
-                     System.out.println("Informe seu CPF");
-                    String cpfFuncionario = scan.nextLine();
-                    System.out.println("Informe seu RG");
-                    String rgFuncionario = scan.nextLine();
-                    System.out.println("Informe sua data de nascimento");
-                    String birthdateFuncionario = scan.nextLine();
-                    System.out.println("Informe seu nome inteiro");
-                    String nomeFuncionario = scan.nextLine();
-                    System.out.println("Informe seu endereço");
-                    String enderecoFuncionario = scan.nextLine();
-                    System.out.println("Informe o número de seu certificado");
-                    String certificado = scan.nextLine();
-                    System.out.println("Informe a sua especialidade");
-                    String specialist = scan.nextLine();
-
 
                 break;
             case 3:
