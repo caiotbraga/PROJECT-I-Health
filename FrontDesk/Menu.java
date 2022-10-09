@@ -8,7 +8,7 @@ public static void main(String[] args) {
 int op;
 Scanner scan = new Scanner(System.in);    
 Doctor doc1= new Doctor(null, null, null, null, null, null, null);    
-Patient pat1= new Patient(null, null, null, null, null, null, null, null, null, null, null);        
+Patient pat1= new Patient(null, null, "caio", null, null, null, null, null, null, null, null);        
 
         do{
         showMenu();
@@ -16,7 +16,7 @@ Patient pat1= new Patient(null, null, null, null, null, null, null, null, null, 
         
         switch (op) {
             case 1:
-            
+                    System.out.println(pat1.personInfo());
             break;
         
     

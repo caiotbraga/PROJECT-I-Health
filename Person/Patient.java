@@ -1,6 +1,6 @@
 package Person;
 
-public class Patient extends PersonInfo{
+public class Patient extends Person{
     
     private String bloodType;
     private String allergy;
@@ -17,6 +17,15 @@ public class Patient extends PersonInfo{
         this.healthPlan = healthPlan;
         this.weight = weight;
         this.height = height;
+    }
+
+    @Override
+    public String personInfo() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Person Information:");
+        sb.append(System.getProperty("line.separator"));
+        sb.append("NAME: "+fullName);
+        return sb.toString();
     }
     
 }

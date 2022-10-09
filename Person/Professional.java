@@ -1,6 +1,6 @@
 package Person;
 
-public class Professional extends PersonInfo{
+public class Professional extends Person{
     
     protected String certificate;
     protected String specialization;
@@ -9,6 +9,12 @@ public class Professional extends PersonInfo{
         super(cpf, rg, fullName, address, birthdate);
         this.certificate = certificate;
         this.specialization = specialization;
+    }
+
+    @Override
+    public String personInfo() {
+        // TODO Auto-generated method stub
+        return null;
     }
     
 }
