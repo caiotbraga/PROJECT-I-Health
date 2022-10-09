@@ -22,9 +22,33 @@ public class Patient extends Person{
     @Override
     public String personInfo() {
         StringBuilder sb = new StringBuilder();
+        sb.append("-------------------------------------------------");
+        sb.append(System.getProperty("line.separator"));
         sb.append("Person Information:");
         sb.append(System.getProperty("line.separator"));
         sb.append("NAME: "+fullName);
+        sb.append(System.getProperty("line.separator"));
+        sb.append("CPF: "+cpf);
+        sb.append(System.getProperty("line.separator"));
+        sb.append("RG: "+rg);
+        sb.append(System.getProperty("line.separator"));
+        sb.append("BIRTHDATE: "+birthdate);
+        sb.append(System.getProperty("line.separator"));
+        sb.append("ADDRESS: "+address);
+        sb.append(System.getProperty("line.separator"));
+        sb.append("HEALTH-PLAN: "+healthPlan);
+        sb.append(System.getProperty("line.separator"));
+        sb.append("BLOOD-TYPE: "+bloodType);
+        sb.append(System.getProperty("line.separator"));
+        sb.append("ALLERGY: "+allergy);
+        sb.append(System.getProperty("line.separator"));
+        sb.append("SYMPTOMS: "+symptoms);
+        sb.append(System.getProperty("line.separator"));
+        sb.append("HEIGHT: "+height);
+        sb.append(System.getProperty("line.separator"));
+        sb.append("WEIGHT: "+weight);
+        sb.append(System.getProperty("line.separator"));
+        sb.append("-------------------------------------------------");
         return sb.toString();
     }
     

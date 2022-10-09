@@ -8,7 +8,7 @@ public static void main(String[] args) {
 int op;
 Scanner scan = new Scanner(System.in);    
 Doctor doc1= new Doctor(null, null, null, null, null, null, null);    
-Patient pat1= new Patient(null, null, "caio", null, null, null, null, null, null, null, null);        
+Patient pat1= new Patient("12345678900", "1207123", "caio", "aflitos", "19/02/03", "-O", "dipirona", "febre e moleza", "cassi", "72", "1,78");        
 
         do{
         showMenu();
