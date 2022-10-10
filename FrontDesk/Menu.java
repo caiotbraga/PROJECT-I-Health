@@ -19,7 +19,7 @@ Scanner scan = new Scanner(System.in);
 
                 break;
             case 3:
-            System.out.println("Escolha xxxxxx");
+            System.out.println("Escolha");
                 break;
             case 4:
                 break;
