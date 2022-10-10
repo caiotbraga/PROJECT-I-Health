@@ -19,7 +19,6 @@ public class Patient extends Person{
         this.height = height;
     }
 
-    @Override
     public String personInfo() {
         StringBuilder sb = new StringBuilder();
         sb.append("-------------------------------------------------");

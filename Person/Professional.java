@@ -11,10 +11,6 @@ public class Professional extends Person{
         this.specialization = specialization;
     }
 
-    @Override
-    public String personInfo() {
-        // TODO Auto-generated method stub
-        return null;
-    }
+
     
 }

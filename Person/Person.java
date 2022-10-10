@@ -1,5 +1,5 @@
 package Person;
-abstract public class Person implements IPerson{
+public abstract class Person{
     protected String cpf;
     protected String rg;
     protected String fullName;
