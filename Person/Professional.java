@@ -6,7 +6,7 @@ public class Professional extends Person{
     protected Specialization specialization;
 
     public Professional(String cpf, String rg, String fullName, String address, String birthdate, String certificate, Specialization specialization) {
-        super(cpf, rg, fullName, address, birthdate);
+        super(cpf, fullName, address);
         this.certificate = certificate;
         this.specialization = specialization;
     }
