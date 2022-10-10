@@ -18,10 +18,14 @@ double code;
 //metodo
     public void prescription(TreatmentsMedicaments object){
         if(object.type== "drug" && object.name== "dipirona"){
-            code= 20;
+            Values price= new Values();
+            code= 1;
+            price.calculateValuesOfTreatments(code);  
         }
         if(object.type== "therapy" && object.name== "quiroplaxia"){
-            code= 50;
+            Values price= new Values();
+            code= 2;
+            price.calculateValuesOfTreatments(code);
         }
         System.out.println("not found :(");
     }
